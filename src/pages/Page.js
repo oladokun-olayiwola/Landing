@@ -11,9 +11,9 @@ const Page = () => {
   return (
     <section>
       <Navbar />
-      <Header id="header"/>
-      <Services id="service"/>
-      <Projects id="project"/>
+      <Header/>
+      <Services />
+      <Projects />
       <Contact />
       <Footer />
     </section>
