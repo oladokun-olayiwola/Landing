@@ -51,7 +51,7 @@ const Nav =() => {
               </Link>
               <div className="md:hidden">
                 <button
-                  className="p-2 text-black rounded-md outline-none focus:border-gray-400 focus:border"
+                  className="p-2 bg-black text-black rounded-md outline-none focus:border-gray-400 focus:border"
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (

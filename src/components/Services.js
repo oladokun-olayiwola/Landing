@@ -80,7 +80,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[url('/src/images/bg.jpg')] object-cover h-80 mb-4 flex flex-col text-right p-28 pt-16 max-w-full ">
+      <div className="bg-[url('/src/images/bg.jpg')] object-cover h-auto mb-4 flex flex-col text-right p-28 pt-16 max-w-full ">
         <h3 className=" text-2xl md:text-4xl font-bold text-white p-3 ">
           Let's develop your next great app!
         </h3>

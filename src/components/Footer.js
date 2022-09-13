@@ -8,44 +8,44 @@ const Footer = () => {
     let year = d.getFullYear()
   return (
     <footer className="bg-gray-700 block ">
-      <div className="block md:flex justify-center text-lg md:text-2xl capitalize font-mono text-white text-center">
-        <span className="p-8 border-r-4-black ">UI design</span>
-        <span className="p-8">windows/mac os apps</span>
-        <span className="p-8">android/ios apps</span>
-        <span className="p-8">cloud solutions</span>
-        <span className="p-8">customer support</span>
+      <div className="block lg:flex justify-center text-lg lg:text-2xl capitalize font-mono text-white text-center">
+        <span className="p-2 lg:p-8">UI design</span>
+        <span className="p-2 lg:p-8">Windows/mac os apps</span>
+        <span className="p-2 lg:p-8">Android/ios apps</span>
+        <span className="p-2 lg:p-8">cloud solutions</span>
+        <span className="p-2 lg:p-8">customer support</span>
       </div>
 
       <div className="flex justify-between">
-        <div className="p-8">
+        <div className="p-4 lg:p-8">
           <span> &#169; </span>
-          <span>{year} Diene</span>
+          <span className='min-w-96'>{year} Diene</span>
         </div>
 
         <div className="flex justify-evenly">
-          <span className="p-8 text-xl">
+          <span className="p-4 lg:p-8 lg:text-xl">
             <Link to="/" className="hover:text-blue-500">
               {<TiSocialFacebook />}
             </Link>
           </span>
-          <span className="p-8 text-xl">
+          <span className="p-4 lg:p-8 lg:text-xl">
             <Link to="/" className="hover:text-blue-500">
               {<TiSocialTwitter />}
             </Link>
           </span>
-          <span className="p-8 text-xl">
+          <span className="p-4 lg:p-8 lg:text-xl">
             <Link to="/" className="hover:text-blue-500">
               {<GrGooglePlus />}
             </Link>
           </span>
-          <span className="p-8 text-xl">
+          <span className="p-4 lg:p-8 lg:text-xl">
             <Link to="/" className="hover:text-blue-500">
               {<GrInstagram />}
             </Link>
           </span>
         </div>
 
-        <div className=" capitalize p-8">
+        <div className="p-4 capitalize lg:p-8">
           <span>All rights reserved</span>
         </div>
       </div>
