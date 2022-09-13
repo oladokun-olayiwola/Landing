@@ -7,8 +7,8 @@ const Footer = () => {
     const d = new Date()
     let year = d.getFullYear()
   return (
-    <footer className="bg-gray-700">
-      <div className="flex justify-center text-2xl capitalize font-mono text-white text-center">
+    <footer className="bg-gray-700 block ">
+      <div className="block md:flex justify-center text-lg md:text-2xl capitalize font-mono text-white text-center">
         <span className="p-8 border-r-4-black ">UI design</span>
         <span className="p-8">windows/mac os apps</span>
         <span className="p-8">android/ios apps</span>

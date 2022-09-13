@@ -7,13 +7,13 @@ import { TiUpload } from "react-icons/ti";
 const Services = () => {
   return (
     <section id="service">
-      <div className="flex justify-evenly">
-        <div className="p-12 h-screen -mb-24">
+      <div className="block md:flex justify-evenly">
+        <div className="p-12 h-screen md:-mb-24">
           <img src={Content} alt="Content" />
         </div>
 
         <div>
-          <div className="flex justify-evenly">
+          <div className="block md:flex justify-evenly">
             <div className="border-2 border-gray-200 w-72 h-80 shadow-lg p-4 m-4 hover:shadow-xl">
               <span>
                 <p className="text-3xl font-poppins pb-8 p-14 flex text-center capitalise font-semibold tracking-wide">
@@ -46,7 +46,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="flex">
+          <div className="block md:flex">
             {" "}
             <div className="border-2 border-gray-200 w-72 h-80 shadow-lg p-4 m-4 hover:shadow-xl">
               <span>
@@ -80,11 +80,11 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[url('/src/images/bg.jpg')] object-cover h-80 mb-4 flex flex-col text-right p-28 pt-16">
-        <h3 className="text-4xl font-bold text-white p-3 ">
+      <div className="bg-[url('/src/images/bg.jpg')] object-cover h-80 mb-4 flex flex-col text-right p-28 pt-16 max-w-full ">
+        <h3 className=" text-2xl md:text-4xl font-bold text-white p-3 ">
           Let's develop your next great app!
         </h3>
-        <p className="p-2 text-lg text-white font-bold">
+        <p className="p-2 text-md md:text-lg text-white font-bold">
           Do you need a unique software solution for your company? We know how
           to help you!
         </p>

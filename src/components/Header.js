@@ -14,7 +14,7 @@ const Header = () => {
   };
   useEffect(() => {
     let timer = setTimeout(() => changeImage(), 3000);
-    return () => clearTimeout(timer)
+    return () => clearTimeout(timer);
   }, [image]);
   return (
     <div id="header">
@@ -23,26 +23,36 @@ const Header = () => {
         <div className="absolute right-3 bottom-12 flex flex-col">
           <button type="button">
             <BsDashLg
-              className=" text-4xl -mb-4 text-white hover:text-blue-500 active:text-blue-500"
+              className={` text-4xl -mb-4 text-white hover:text-blue-500 active:text-blue-500 ${
+                image === first ? "text-blue-500" : "text-white"
+              } `}
               onClick={() => setImage(first)}
             />
           </button>
           <button type="button">
             <BsDashLg
-              className=" text-4xl -mb-4 text-white hover:text-blue-500 active:text-blue-500"
-              onClick={() => setImage(second)}
+              className={`text-4xl -mb-4 text-white hover:text-blue-500 ${
+                image === second ? "text-blue-500" : "text-white"
+              }`}
+              onClick={() => {
+                setImage(second);
+              }}
             />
           </button>
           <button type="button">
             <BsDashLg
-              className=" text-4xl -mb-4 text-white hover:text-blue-500 active:text-blue-500"
+              className={` text-4xl -mb-4 text-white hover:text-blue-50 ${
+                image === third ? "text-blue-500" : "text-white"
+              }`}
               onClick={() => setImage(third)}
             />
           </button>
         </div>
         <div className="absolute m-auto left-1/4 top-1/3 right-1/4">
-          <h2 className="text-5xl text-center font-bold uppercase">Award-Winning software</h2>
-          <p className="text-xl font-semibold font-poppins font-gray-300 text-center">
+          <h2 className="text-5xl text-center font-poppins font-normal capitalize">
+            Award-Winning software
+          </h2>
+          <p className="text-xl font-semibold font-poppins font-gray-300 text-center w-full">
             The software developed by our company have been numerously awarded
             for usability and innovative fetures
           </p>
