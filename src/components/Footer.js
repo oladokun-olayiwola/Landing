@@ -9,11 +9,11 @@ const Footer = () => {
   return (
     <footer className="bg-gray-700 block ">
       <div className="block lg:flex justify-center text-lg lg:text-2xl capitalize font-mono text-white text-center">
-        <span className="p-2 lg:p-8">UI design</span>
-        <span className="p-2 lg:p-8">Windows/mac os apps</span>
-        <span className="p-2 lg:p-8">Android/ios apps</span>
-        <span className="p-2 lg:p-8">cloud solutions</span>
-        <span className="p-2 lg:p-8">customer support</span>
+        <span className="p-2 lg:p-8 w-auto">UI design</span>
+        <span className="p-2 lg:p-8 w-auto">Windows/macos apps</span>
+        <span className="p-2 lg:p-8 w-auto">Android/ios apps</span>
+        <span className="p-2 lg:p-8 w-auto">cloud solutions</span>
+        <span className="p-2 lg:p-8 w-auto">customer support</span>
       </div>
 
       <div className="flex justify-between">

@@ -1,13 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import one from "../images/first.jpg";
 import two from "../images/second.jpg";
 import three from "../images/third.jpg";
-import four from "../images/fourth.jpg";
-import five from "../images/fifth.jpg";
-import sixth from "../images/sixth.jpg";
-import seven from "../images/seven.jpg";
-import eight from "../images/eight.jpg";
+
 
 const Projects = () => {
   return (
@@ -26,9 +21,9 @@ const Projects = () => {
       </div>
       <div className="w-full">
         <div className=" justify-center flex flex-col lg:flex-row lg:justify-evenly">
-          <img src={one} alt="Project" className="ml-20 m-8 w-1/2 md:m-1 lg:m-4" />
-          <img src={two} alt="Project" className="ml-20 m-8 w-1/2  md:m-1 lg:m-4" />
-          <img src={three} alt="Project" className="ml-20 m-8 w-1/2  md:m-1 lg:m-4" />
+          <img src={one} alt="Project" className="ml-20 m-8 w-1/2  md:block md:m-1 lg:m-4" />
+          <img src={two} alt="Project" className="ml-20 m-8 w-1/2 md:block md:m-1 lg:m-4" />
+          <img src={three} alt="Project" className="ml-20 m-8 w-1/2 md:block  md:m-1 lg:m-4" />
         </div>
         {/* <div className="justify-center flex flex-col lg:flex-row lg:justify-evenly">
           <img src={four} alt="Project" className="ml-20 m-8 w-1/2 md:m-1  lg:m-4" />
