@@ -7,12 +7,12 @@ import { TiUpload } from "react-icons/ti";
 const Services = () => {
   return (
     <section id="service">
-      <div className="block md:flex justify-evenly">
-        <div className="p-12 h-screen md:-mb-24">
+      <div className="block lg:flex justify-evenly">
+        <div className="p-12 h-screen  flex justify-evenly">
           <img src={Content} alt="Content" />
         </div>
 
-        <div>
+        <div className="flex flex-col justify-center">
           <div className="block md:flex justify-evenly">
             <div className="border-2 border-gray-200 w-72 h-80 shadow-lg p-4 m-4 hover:shadow-xl">
               <span>
@@ -45,37 +45,38 @@ const Services = () => {
               </span>
             </div>
           </div>
-
-          <div className="block md:flex">
-            {" "}
-            <div className="border-2 border-gray-200 w-72 h-80 shadow-lg p-4 m-4 hover:shadow-xl">
-              <span>
-                <p className="flex justify-center text-5xl pt-6 pb-4">
-                  <MdOutlineHeadsetMic />
-                </p>
-                <p className="text-xl uppercase font-roboto flex text-center p-5 ">
-                  Call center solutions{" "}
-                </p>
-                <div className="h-1 bg-gray-200 w-24 m-20 my-4"></div>
-                <p className="text-center font-semibold">
-                  Our experts provide custom products of any complexity for call
-                  centers.
-                </p>
-              </span>
-            </div>
-            <div className="border-2 border-gray-200 w-72 h-80 shadow-lg p-4 m-4 hover:shadow-xl">
-              <span>
-                <p className="flex justify-center text-5xl pt-6 pb-4">
-                  <TiUpload />
-                </p>
-                <p className="text-xl uppercase font-roboto flex text-center p-5 ">
-                  cloud development
-                </p>
-                <div className="h-1 bg-gray-200 w-24 m-20 my-4"></div>
-                <p className="text-center font-semibold ">
-                  We can also offer you reliable cloud development solutions.
-                </p>
-              </span>
+          <div className="flex flex-col justify-center">
+            <div className="block md:flex justify-evenly">
+              {" "}
+              <div className="border-2 border-gray-200 w-72 h-80 shadow-lg p-4 m-4 hover:shadow-xl">
+                <span>
+                  <p className="flex justify-center text-5xl pt-6 pb-4">
+                    <MdOutlineHeadsetMic />
+                  </p>
+                  <p className="text-xl uppercase font-roboto flex text-center p-5 ">
+                    Call center solutions{" "}
+                  </p>
+                  <div className="h-1 bg-gray-200 w-24 m-20 my-4"></div>
+                  <p className="text-center font-semibold">
+                    Our experts provide custom products of any complexity for
+                    call centers.
+                  </p>
+                </span>
+              </div>
+              <div className="border-2 border-gray-200 w-72 h-80 shadow-lg p-4 m-4 hover:shadow-xl">
+                <span>
+                  <p className="flex justify-center text-5xl pt-6 pb-4">
+                    <TiUpload />
+                  </p>
+                  <p className="text-xl uppercase font-roboto flex text-center p-5 ">
+                    cloud development
+                  </p>
+                  <div className="h-1 bg-gray-200 w-24 m-20 my-4"></div>
+                  <p className="text-center font-semibold ">
+                    We can also offer you reliable cloud development solutions.
+                  </p>
+                </span>
+              </div>
             </div>
           </div>
         </div>
