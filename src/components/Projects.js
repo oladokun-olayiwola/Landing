@@ -16,12 +16,13 @@ const Projects = () => {
         <h2 className="text-center capitalize text-2xl md:text-4xl font-mono font-medium">
           latest projects
         </h2>
-        <p className="text-center flex justify-center lg:mx-80">
+        <div className="flex justify-center"><p className=" w-1/2 text-center flex justify-center lg:mx-80">
           In our portfolio, you can browse the latest products developed for our
           clients for different corporate purposes. Our qualified team of
           interface designers and software developers is always ready to create
           something unique for you.
         </p>
+        </div>
       </div>
       <div className="w-full">
         <div className=" justify-center flex flex-col lg:flex-row lg:justify-evenly">

@@ -56,12 +56,14 @@ const Header = () => {
             The software developed by our company have been numerously awarded
             for usability and innovative fetures
           </p>
-          <button
-            type="button"
-            className="bg-blue-400 w-48 h-14 ml-3/4 font-semibold text-md text-white uppercase font-roboto mt-8 transition-colors duration-700 ease-in hover:bg-black active:color:blue"
-          >
-            Get info
-          </button>
+          <div className="flex justify-center">
+            <button
+              type="button"
+              className="bg-blue-400 w-48 h-14 ml-3/4 font-semibold text-md text-white uppercase font-roboto mt-8 transition-colors duration-700 ease-in hover:bg-black active:color:blue"
+            >
+              Get info
+            </button>
+          </div>
         </div>
       </div>
     </div>

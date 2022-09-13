@@ -17,21 +17,21 @@ const Contact = () => {
           <input
             type="text"
             placeholder="Your name"
-            className="h-16 text-slate-900 bg-gray-300 text-xl min-w-1/4 block md:flex border-2 md:m-8 my-8 md:ml-0 border-gray-300 p-4 focus:outline-0"
+            className="h-16 text-slate-900 bg-gray-300 text-xl min-w-1/4 block lg:flex border-2 md:m-8 my-8 md:ml-0 border-gray-300 p-4 focus:outline-0"
           />
         </div>
         <div>
           <input
             type="email"
             placeholder="E-mail"
-            className="h-16 text-slate-900 bg-gray-300 text-xl min-w-1/4 block md:flex border-2 my-8 md:m-8 border-gray-300 p-4 focus:outline-0 "
+            className="h-16 text-slate-900 md:block  bg-gray-300 text-xl min-w-1/4 block lg:flex border-2 my-8 md:m-8 border-gray-300 p-4 focus:outline-0 "
           />
         </div>
         <div>
           <input
             type="text"
             placeholder="Phone"
-            className="h-16 text-slate-900 bg-gray-300 text-xl block md:flex min-w-1/4 border-2 my-8 md:m-8  border-gray-300 p-4 focus:outline-0 "
+            className="h-16 text-slate-900 bg-gray-300 text-xl block lg:flex min-w-1/4 border-2 my-8 md:m-8  border-gray-300 p-4 focus:outline-0 "
           />{" "}
         </div>
       </div>
